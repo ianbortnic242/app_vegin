@@ -226,7 +226,7 @@ a {
 }
 
 .button_size{
-  width: 60%;
+  width: 70%;
   padding-bottom: 40px;
 
 }
@@ -252,8 +252,9 @@ a {
   position: relative;
   height: 0;
   border-radius: 10px;
-  overflow: hidden;
+  overflow: auto;
   border: 1px solid white;
+
 }
 
 .fill_div{
@@ -390,6 +391,9 @@ footer{
     width: 90%;
     padding-bottom: 58%;
 
+  }
+  .centered2{
+    font-size: 15px;
   }
 
 
