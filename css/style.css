@@ -136,13 +136,17 @@ a {
   flex-grow: 0;
 }
 
-.section_margin section{
+.section_margin section, h2{
   margin-left: 20px;
 }
 
 
 .format_section h2{
   margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.margin_bottom_recetas{
   margin-bottom: 30px;
 }
 
@@ -156,8 +160,6 @@ a {
   font-size: 15px;
   line-height: 30px;
 }
-
-
 
 .button_recetas{
   width:80%;
@@ -311,7 +313,7 @@ a {
 
 
 .margin_bottom div{
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 
@@ -384,7 +386,7 @@ footer{
 
   .carrousel_size{
     width: 90%;
-    padding-bottom: 50%;
+    padding-bottom: 58%;
 
   }
 
