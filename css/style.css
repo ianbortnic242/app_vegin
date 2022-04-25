@@ -187,7 +187,7 @@ a {
 .center_p2{
   width: 40%;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding-bottom: 35px;
 }
 
 .index_topics_size{
@@ -248,7 +248,7 @@ a {
 
 
 .margin_top{
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 
@@ -286,11 +286,6 @@ a {
   background-color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
   text-align: center;
-}
-
-.objeciones{
-  top: 80%;
-  font-size: 18px;
 }
 
 .caps{
@@ -344,8 +339,26 @@ footer{
   .resize_social_media img{
     height: 30px;
   }
-  .introduction__title{
-    font-size: 30px;
+  .introduction_title{
+    font-size: 25px;
   }
+  .centered_down{
+    font-size: 14px;
+    top: 75%;
+  }
+
+  .centered, .button_compras{
+    font-size: 15px;
+  }
+  .button_compras, .button_nutricionistas{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .center_p2{
+    width: 60%;
+  }
+
 }
 
