@@ -21,7 +21,6 @@ li a:hover {
 }
 
 
-
 .bckg_image_index{
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/index/index_bckg.jpg);
   padding-top: 50px;
@@ -161,25 +160,6 @@ a {
   line-height: 30px;
 }
 
-.button_recetas{
-  width:80%;
-  position: relative;
-  overflow: auto;
-}
-
-.button_recetas h3{
-  background: #86BDBC;
-  text-transform: uppercase;
-  font-size: 15px;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 15px;
-  border: 1px solid white;
-
-}
-
-
 .center_p{
   width: 80%;
   margin: 0 auto;
@@ -295,7 +275,7 @@ a {
 
 
 .button_recetas{
-  width:80%;
+  width: 80%;
   position: relative;
   overflow: auto;
 }
