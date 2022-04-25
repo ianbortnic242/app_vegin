@@ -50,6 +50,10 @@ li a:hover {
 
 }
 
+.background2{
+  background-color: #86BDBC;
+}
+
 
 .bckg_image_salud{
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/salud/salud_bckground.jpg);
@@ -221,11 +225,12 @@ a {
 
 }
 
-.carrousel2_size{
+.button_size{
   width: 60%;
-  padding-bottom: 32%;
+  padding-bottom: 40px;
 
 }
+
 
 
 .margin_top{
@@ -242,6 +247,15 @@ a {
   border: 1px solid white;
 }
 
+
+.topics2{
+  position: relative;
+  height: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid white;
+}
+
 .fill_div{
   max-width: 100%;
 }
@@ -252,7 +266,15 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.5);
-  font-size:2vw;
+  font-size: 20px;
+  text-align: center;
+}
+
+.centered2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 20px;
   text-align: center;
 }
@@ -280,7 +302,7 @@ a {
   overflow: auto;
 }
 
-.button_compras, .button_nutricionistas, .button_recetas h3{
+.button_compras, .button_nutricionistas{
   background: #86BDBC;
   text-transform: uppercase;
   font-size: 15px;
