@@ -205,7 +205,6 @@ a {
 .compras_size{
   width: 55%;
   padding-bottom: 30%;
-
 }
 
 
@@ -328,9 +327,9 @@ footer{
 
 
 @media screen and (max-width:768px){
-  .index_topics_size, .index_topics_alone_size{
-    width: 50%;
-    padding-bottom: 30%;
+  .index_topics_alone_size{
+    width: 80%;
+    padding-bottom: 50%;
   }
 
 }
@@ -342,23 +341,53 @@ footer{
   .introduction_title{
     font-size: 25px;
   }
-  .centered_down{
-    font-size: 14px;
-    top: 75%;
-  }
 
-  .centered, .button_compras{
+  .button_compras{
     font-size: 15px;
   }
   .button_compras, .button_nutricionistas{
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .center_p2{
     width: 60%;
   }
+
+  .centered_down{
+    font-size: 15px;
+
+  }
+
+  .nutrientes_size{
+    width: 70%;
+    padding-bottom: 83%;
+  }
+
+  .avales_size{
+    width: 70%;
+    padding-bottom: 68%;
+
+  }
+
+  .salud_topics_size{
+    width: 80%;
+    padding-bottom: 30%;
+
+  }
+
+  .compras_size{
+    width: 75%;
+    padding-bottom: 50%;
+  }
+
+  .carrousel_size{
+    width: 70%;
+    padding-bottom: 45%;
+
+  }
+
 
 }
 
