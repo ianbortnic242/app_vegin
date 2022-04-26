@@ -1,4 +1,13 @@
-@mixin transform-transition($transform, $transition) {
-    transform: $transform;
-    transition: $transition;
+@mixin width-padding_bottom($width, $padding_bottom) {
+    width: $width;
+    padding-bottom: $padding_bottom;
+}
+
+@mixin bckg_image($url, $padding-top){
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), $url;
+    padding-top: $padding-top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
